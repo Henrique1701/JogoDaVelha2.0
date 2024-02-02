@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA425982B6D0351007774F7 /* JogoDaVelha2 in Resources */ = {isa = PBXBuildFile; fileRef = BEA425952B6D0351007774F7 /* JogoDaVelha2 */; };
+		BEA425992B6D0351007774F7 /* JogoDaVelha2UITests in Resources */ = {isa = PBXBuildFile; fileRef = BEA425962B6D0351007774F7 /* JogoDaVelha2UITests */; };
+		BEA4259A2B6D0351007774F7 /* JogoDaVelha2Tests in Resources */ = {isa = PBXBuildFile; fileRef = BEA425972B6D0351007774F7 /* JogoDaVelha2Tests */; };
+		BED601852B687AB2003460E6 /* JogoDaVelhaTDDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601842B687AB2003460E6 /* JogoDaVelhaTDDApp.swift */; };
+		BED601872B687AB2003460E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601862B687AB2003460E6 /* ContentView.swift */; };
+		BED601892B687AB5003460E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED601882B687AB5003460E6 /* Assets.xcassets */; };
+		BED6018C2B687AB5003460E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED6018B2B687AB5003460E6 /* Preview Assets.xcassets */; };
+		BED601962B687AB6003460E6 /* JogoDaVelhaTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601952B687AB6003460E6 /* JogoDaVelhaTDDTests.swift */; };
+		BED601A02B687AB6003460E6 /* JogoDaVelhaTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6019F2B687AB6003460E6 /* JogoDaVelhaTDDUITests.swift */; };
+		BED601A22B687AB6003460E6 /* JogoDaVelhaTDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601A12B687AB6003460E6 /* JogoDaVelhaTDDUITestsLaunchTests.swift */; };
+		BED601AF2B687B37003460E6 /* JogoDaVelhaViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601AE2B687B37003460E6 /* JogoDaVelhaViewModelTests.swift */; };
+		BED601B12B687EF6003460E6 /* JogoDaVelhaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601B02B687EF6003460E6 /* JogoDaVelhaViewModel.swift */; };
+		BED601B32B689999003460E6 /* JogoDaVelhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601B22B689999003460E6 /* JogoDaVelhaView.swift */; };
+		BED601B62B69B656003460E6 /* GameBoardMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601B52B69B656003460E6 /* GameBoardMock.swift */; };
+		BED601D22B6C766D003460E6 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED601D12B6C766D003460E6 /* GameBoardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BED601922B687AB6003460E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED601792B687AB2003460E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED601802B687AB2003460E6;
+			remoteInfo = JogoDaVelhaTDD;
+		};
+		BED6019C2B687AB6003460E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BED601792B687AB2003460E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED601802B687AB2003460E6;
+			remoteInfo = JogoDaVelhaTDD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA425952B6D0351007774F7 /* JogoDaVelha2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JogoDaVelha2; sourceTree = SOURCE_ROOT; };
+		BEA425962B6D0351007774F7 /* JogoDaVelha2UITests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JogoDaVelha2UITests; sourceTree = SOURCE_ROOT; };
+		BEA425972B6D0351007774F7 /* JogoDaVelha2Tests */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JogoDaVelha2Tests; sourceTree = SOURCE_ROOT; };
+		BED601812B687AB2003460E6 /* JogoDaVelha2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoDaVelha2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED601842B687AB2003460E6 /* JogoDaVelhaTDDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaTDDApp.swift; sourceTree = "<group>"; };
+		BED601862B687AB2003460E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BED601882B687AB5003460E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED6018B2B687AB5003460E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BED601912B687AB6003460E6 /* JogoDaVelha2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaVelha2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED601952B687AB6003460E6 /* JogoDaVelhaTDDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaTDDTests.swift; sourceTree = "<group>"; };
+		BED6019B2B687AB6003460E6 /* JogoDaVelha2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoDaVelha2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED6019F2B687AB6003460E6 /* JogoDaVelhaTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaTDDUITests.swift; sourceTree = "<group>"; };
+		BED601A12B687AB6003460E6 /* JogoDaVelhaTDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaTDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BED601AE2B687B37003460E6 /* JogoDaVelhaViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaViewModelTests.swift; sourceTree = "<group>"; };
+		BED601B02B687EF6003460E6 /* JogoDaVelhaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaViewModel.swift; sourceTree = "<group>"; };
+		BED601B22B689999003460E6 /* JogoDaVelhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaVelhaView.swift; sourceTree = "<group>"; };
+		BED601B52B69B656003460E6 /* GameBoardMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardMock.swift; sourceTree = "<group>"; };
+		BED601D12B6C766D003460E6 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED6017E2B687AB2003460E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED6018E2B687AB6003460E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED601982B687AB6003460E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BED601782B687AB2003460E6 = {
+			isa = PBXGroup;
+			children = (
+				BED601832B687AB2003460E6 /* JogoDaVelha2 */,
+				BED601942B687AB6003460E6 /* JogoDaVelha2Tests */,
+				BED6019E2B687AB6003460E6 /* JogoDaVelha2UITests */,
+				BED601822B687AB2003460E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BED601822B687AB2003460E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BED601812B687AB2003460E6 /* JogoDaVelha2.app */,
+				BED601912B687AB6003460E6 /* JogoDaVelha2Tests.xctest */,
+				BED6019B2B687AB6003460E6 /* JogoDaVelha2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED601832B687AB2003460E6 /* JogoDaVelha2 */ = {
+			isa = PBXGroup;
+			children = (
+				BED601842B687AB2003460E6 /* JogoDaVelhaTDDApp.swift */,
+				BED601862B687AB2003460E6 /* ContentView.swift */,
+				BED601882B687AB5003460E6 /* Assets.xcassets */,
+				BED6018A2B687AB5003460E6 /* Preview Content */,
+				BED601B02B687EF6003460E6 /* JogoDaVelhaViewModel.swift */,
+				BED601B22B689999003460E6 /* JogoDaVelhaView.swift */,
+				BED601D12B6C766D003460E6 /* GameBoardView.swift */,
+			);
+			path = JogoDaVelha2;
+			sourceTree = "<group>";
+		};
+		BED6018A2B687AB5003460E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BED6018B2B687AB5003460E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BED601942B687AB6003460E6 /* JogoDaVelha2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BED601B42B69B643003460E6 /* Mocks */,
+				BED601952B687AB6003460E6 /* JogoDaVelhaTDDTests.swift */,
+				BED601AE2B687B37003460E6 /* JogoDaVelhaViewModelTests.swift */,
+			);
+			path = JogoDaVelha2Tests;
+			sourceTree = "<group>";
+		};
+		BED6019E2B687AB6003460E6 /* JogoDaVelha2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA425952B6D0351007774F7 /* JogoDaVelha2 */,
+				BEA425972B6D0351007774F7 /* JogoDaVelha2Tests */,
+				BEA425962B6D0351007774F7 /* JogoDaVelha2UITests */,
+				BED6019F2B687AB6003460E6 /* JogoDaVelhaTDDUITests.swift */,
+				BED601A12B687AB6003460E6 /* JogoDaVelhaTDDUITestsLaunchTests.swift */,
+			);
+			path = JogoDaVelha2UITests;
+			sourceTree = "<group>";
+		};
+		BED601B42B69B643003460E6 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				BED601B52B69B656003460E6 /* GameBoardMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BED601802B687AB2003460E6 /* JogoDaVelha2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED601A52B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2" */;
+			buildPhases = (
+				BED6017D2B687AB2003460E6 /* Sources */,
+				BED6017E2B687AB2003460E6 /* Frameworks */,
+				BED6017F2B687AB2003460E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoDaVelha2;
+			productName = JogoDaVelhaTDD;
+			productReference = BED601812B687AB2003460E6 /* JogoDaVelha2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BED601902B687AB6003460E6 /* JogoDaVelha2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED601A82B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2Tests" */;
+			buildPhases = (
+				BED6018D2B687AB6003460E6 /* Sources */,
+				BED6018E2B687AB6003460E6 /* Frameworks */,
+				BED6018F2B687AB6003460E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED601932B687AB6003460E6 /* PBXTargetDependency */,
+			);
+			name = JogoDaVelha2Tests;
+			productName = JogoDaVelhaTDDTests;
+			productReference = BED601912B687AB6003460E6 /* JogoDaVelha2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BED6019A2B687AB6003460E6 /* JogoDaVelha2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BED601AB2B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2UITests" */;
+			buildPhases = (
+				BED601972B687AB6003460E6 /* Sources */,
+				BED601982B687AB6003460E6 /* Frameworks */,
+				BED601992B687AB6003460E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED6019D2B687AB6003460E6 /* PBXTargetDependency */,
+			);
+			name = JogoDaVelha2UITests;
+			productName = JogoDaVelhaTDDUITests;
+			productReference = BED6019B2B687AB6003460E6 /* JogoDaVelha2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BED601792B687AB2003460E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BED601802B687AB2003460E6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BED601902B687AB6003460E6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BED601802B687AB2003460E6;
+					};
+					BED6019A2B687AB6003460E6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BED601802B687AB2003460E6;
+					};
+				};
+			};
+			buildConfigurationList = BED6017C2B687AB2003460E6 /* Build configuration list for PBXProject "JogoDaVelha2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BED601782B687AB2003460E6;
+			productRefGroup = BED601822B687AB2003460E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BED601802B687AB2003460E6 /* JogoDaVelha2 */,
+				BED601902B687AB6003460E6 /* JogoDaVelha2Tests */,
+				BED6019A2B687AB6003460E6 /* JogoDaVelha2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BED6017F2B687AB2003460E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED6018C2B687AB5003460E6 /* Preview Assets.xcassets in Resources */,
+				BED601892B687AB5003460E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED6018F2B687AB6003460E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED601992B687AB6003460E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA425992B6D0351007774F7 /* JogoDaVelha2UITests in Resources */,
+				BEA425982B6D0351007774F7 /* JogoDaVelha2 in Resources */,
+				BEA4259A2B6D0351007774F7 /* JogoDaVelha2Tests in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED6017D2B687AB2003460E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED601872B687AB2003460E6 /* ContentView.swift in Sources */,
+				BED601D22B6C766D003460E6 /* GameBoardView.swift in Sources */,
+				BED601852B687AB2003460E6 /* JogoDaVelhaTDDApp.swift in Sources */,
+				BED601B12B687EF6003460E6 /* JogoDaVelhaViewModel.swift in Sources */,
+				BED601B32B689999003460E6 /* JogoDaVelhaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED6018D2B687AB6003460E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED601962B687AB6003460E6 /* JogoDaVelhaTDDTests.swift in Sources */,
+				BED601B62B69B656003460E6 /* GameBoardMock.swift in Sources */,
+				BED601AF2B687B37003460E6 /* JogoDaVelhaViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED601972B687AB6003460E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED601A22B687AB6003460E6 /* JogoDaVelhaTDDUITestsLaunchTests.swift in Sources */,
+				BED601A02B687AB6003460E6 /* JogoDaVelhaTDDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BED601932B687AB6003460E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED601802B687AB2003460E6 /* JogoDaVelha2 */;
+			targetProxy = BED601922B687AB6003460E6 /* PBXContainerItemProxy */;
+		};
+		BED6019D2B687AB6003460E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED601802B687AB2003460E6 /* JogoDaVelha2 */;
+			targetProxy = BED6019C2B687AB6003460E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BED601A32B687AB6003460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BED601A42B687AB6003460E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BED601A62B687AB6003460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoDaVelha2/Preview Content\"";
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BED601A72B687AB6003460E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoDaVelha2/Preview Content\"";
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BED601A92B687AB6003460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaVelha2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JogoDaVelha2";
+			};
+			name = Debug;
+		};
+		BED601AA2B687AB6003460E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoDaVelha2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JogoDaVelha2";
+			};
+			name = Release;
+		};
+		BED601AC2B687AB6003460E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoDaVelha2;
+			};
+			name = Debug;
+		};
+		BED601AD2B687AB6003460E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhfs.JogoDaVelha2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoDaVelha2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BED6017C2B687AB2003460E6 /* Build configuration list for PBXProject "JogoDaVelha2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED601A32B687AB6003460E6 /* Debug */,
+				BED601A42B687AB6003460E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED601A52B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED601A62B687AB6003460E6 /* Debug */,
+				BED601A72B687AB6003460E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED601A82B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED601A92B687AB6003460E6 /* Debug */,
+				BED601AA2B687AB6003460E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED601AB2B687AB6003460E6 /* Build configuration list for PBXNativeTarget "JogoDaVelha2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED601AC2B687AB6003460E6 /* Debug */,
+				BED601AD2B687AB6003460E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BED601792B687AB2003460E6 /* Project object */;
+}
